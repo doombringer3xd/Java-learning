@@ -1,0 +1,51 @@
+package com.company.Homework.First;
+
+public class One {
+
+    public static void main(String[] args) {
+        System.out.println("Name: Илья");
+        System.out.println("Surname: Шевченко");
+    }
+}
+package com.company.Homework.First;
+
+public class Two {
+    public static void main(String[] args) {
+        int a = 25 ;
+        int b = 15 ;
+        int k ;
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a * b);
+        System.out.println(a / b);
+        System.out.println(a % b);
+    }
+}
+package com.company.Homework.First;
+
+public class Three {
+    public static void main(String[] args) {
+        System.out.println("Name:                 Саша");
+        System.out.println("Surname:              Мельник");
+        System.out.println("Phone number:         +380930380763");
+        System.out.println("Place of work/study:  Interlink");
+    }
+}
+package com.company.Homework.First;
+
+import java.util.Scanner;
+
+public class four {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Ширина: ");
+        float A = in.nextFloat();
+        System.out.print("Длина: ");
+        float B = in.nextFloat();
+        System.out.print("Высота: ");
+        float H = in.nextFloat();
+        System.out.println("Объём" );
+        float V = A * B * H;
+        System.out.println(V);
+    }
+}
